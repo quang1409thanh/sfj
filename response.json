@@ -1,0 +1,101 @@
+                                                                                                                                              {
+  "albums": [
+    {
+      "id": 1,
+      "artist_id": 1,
+      "name": "Unknown Album",
+      "cover": null,
+      "created_at": "2023-12-12T15:42:14.000000Z",
+      "is_compilation": false
+    }
+  ],
+  "artists": [
+    { "id": 1, "name": "Unknown Artist", "image": null },
+    { "id": 2, "name": "Various Artists", "image": null }
+  ],
+  "songs": [
+    {
+      "id": "09d09959-bbc9-4474-84aa-7891f0153232",
+      "album_id": 1,
+      "title": "bai1",
+      "length": 302.34,
+      "track": 0,
+      "disc": 1,
+      "lyrics": "",
+      "created_at": "2023-12-18T08:48:40.000000Z",
+      "artist_id": 1,
+      "year": null,
+      "genre": ""
+    },
+    {
+      "id": "5f8bf371-b584-473d-bf36-6f7cdd53b0bc",
+      "album_id": 1,
+      "title": "bai2",
+      "length": 192.29,
+      "track": 0,
+      "disc": 1,
+      "lyrics": "",
+      "created_at": "2023-12-18T08:48:40.000000Z",
+      "artist_id": 1,
+      "year": null,
+      "genre": ""
+    },
+    {
+      "id": "facdedbe-9cac-49f8-9fb5-bf59483ee1ac",
+      "album_id": 1,
+      "title": "bai3",
+      "length": 208.01,
+      "track": 0,
+      "disc": 1,
+      "lyrics": "",
+      "created_at": "2023-12-18T08:48:40.000000Z",
+      "artist_id": 1,
+      "year": null,
+      "genre": ""
+    }
+  ],
+  "settings": { "media_path": "/home/thanhyk14/DBMUSIC" },
+  "playlists": [],
+  "interactions": [
+    {
+      "song_id": "5f8bf371-b584-473d-bf36-6f7cdd53b0bc",
+      "liked": false,
+      "play_count": 2
+    },
+    {
+      "song_id": "facdedbe-9cac-49f8-9fb5-bf59483ee1ac",
+      "liked": false,
+      "play_count": 1
+    }
+  ],
+  "recentlyPlayed": [
+    "5f8bf371-b584-473d-bf36-6f7cdd53b0bc",
+    "facdedbe-9cac-49f8-9fb5-bf59483ee1ac"
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Sound",
+      "email": "admin@sound.dev",
+      "is_admin": true,
+      "preferences": { "lastfm_session_key": null },
+      "avatar": "https://www.gravatar.com/avatar/f39f3b5d6e192bbc8e289deec7e004a5?s=192&d=robohash"
+    }
+  ],
+  "currentUser": {
+    "id": 1,
+    "name": "Sound",
+    "email": "admin@sound.dev",
+    "is_admin": true,
+    "preferences": { "lastfm_session_key": null },
+    "avatar": "https://www.gravatar.com/avatar/f39f3b5d6e192bbc8e289deec7e004a5?s=192&d=robohash"
+  },
+  "useLastfm": false,
+  "useYouTube": true,
+  "useiTunes": true,
+  "allowDownload": true,
+  "supportsTranscoding": false,
+  "cdnUrl": "http://127.0.0.1:8000/",
+  "currentVersion": "v6.11.2",
+  "latestVersion": "v6.11.2"
+}
